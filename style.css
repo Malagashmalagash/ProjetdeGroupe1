@@ -1,0 +1,16 @@
+.plan {
+  margin-bottom: 2vh;
+}
+.captions {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.vert {
+  background-color: lawngreen;
+}
+.yellow {
+  background-color: yellow;
+}
+.blue {
+  background-color: turquoise;
+}
