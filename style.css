@@ -1,0 +1,15 @@
+.TNcenter{
+	text-align: justify;
+	margin-right: 12%;
+	margin-left: 12%;
+}
+
+body { padding-top: 70px; }
+
+.test{
+	position: relative;
+}
+
+.test2{
+	position: absolute;
+}
