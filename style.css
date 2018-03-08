@@ -6,10 +6,18 @@
 
 body { padding-top: 70px; }
 
-.test{
+.posRelative{
 	position: relative;
 }
 
-.test2{
+.posAbsolue{
 	position: absolute;
+}
+
+.navbar-default .navbar-nav > li > a{
+	padding-right: 25px;
+}
+
+.paddingsection{
+	padding-top: 20px;
 }
