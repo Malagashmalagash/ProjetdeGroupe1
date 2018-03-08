@@ -14,11 +14,13 @@
 }
 .blue {
   background-color: turquoise;
-/*timeline*/
-body.timeline-body {
-  background-image: url("images/arbre.jpg");
-
 }
+
+.timeline-body{
+  background-image: url("images/arbres.jpg");
+}
+
+
 div.timeline-panel{
   background-color: white;
   opacity:0.8;
@@ -215,4 +217,3 @@ h1#timeline{
         }
 
 }
-/*timeline*/
