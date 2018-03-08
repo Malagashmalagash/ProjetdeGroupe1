@@ -7,22 +7,69 @@
     <!-- BOOTSTRAP installation -->
     <!-- Latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
     <link rel="stylesheet" href="style.css">
 	<title>WildFestoche</title>
 </head>
 <body>
 	<!-- Partie clément -->
 <header>
+<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid test">
+            <div class="hidden-xs test2"><img class="img-responsive" src="images/laugauNav.jpg"></div>
+            <div class="row text-center">
+                <div class="col-xs-12">
+                <p>Wild Festival</p>
+                <p >Le premier avril 2018 à Cerf-chevalier, de 9h à 00h00 !</p>
+            </div>
 
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <p class="hidden-xs navbar-text">Ca va etre WILD !</p>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#">Programmation</a></li>
+                    
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Artistes</a></li>
+                    <li><a href="#">Galerie</a></li>
+                    <li><a href="#">Information</a></li>
+                    <li><a href="#">Postuler</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+            
+        </div><!-- /.container-fluid -->
+    </nav>
 </header>
 
-<section class="artiste">
+<div class="section">
+<section class="artiste slide">
 	<div class="container-fluid">
+        <div><img class="img-responsive" src="images/lapin.jpg"></div>
      <div class="container">
 
 
+
     <div class="panel panel-default">
+=======
+        
+    <div class="panel panel-default slide">
+
         <div class="panel-heading">
             <h3 class="panel-title text-left">Artistes à l'honneur cette année</h3>
         </div>
@@ -34,7 +81,7 @@
                <figure class="thumbnail text-center">
                 <img src="images/laugau.jpg" alt="gnuman" class="responsive img-circle">
                 <figcaption class="caption">
-                    <h3>Monsieur banane</h3>
+                    <h3>Monsieur patate</h3>
                     <p class="TNcenter">Jongle comme un mongolo avec des perceuses branchées sur 220V ! Il est stupide, mais on aimerai secretement qu'il se blesse méchament !</p>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalart1"><span
                             aria-hidden="true"></span> En savoir plus
@@ -500,7 +547,17 @@
 <footer>
 
 </footer>
-
+<!-- Test pour FullPage-->
+<script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+                anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+                menu: '#menu',
+                scrollingSpeed: 1000
+            });
+        });
+    </script>
 
 
 <!-- Latest compiled and minified Bootstrap JavaScript + JQuery -->
