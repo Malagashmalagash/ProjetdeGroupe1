@@ -4,17 +4,20 @@
 .table1, .table2, .table3{display: flex;}
 p{display: flex; flex-direction: column;}
 h2{text-align: center;}
+table{border-collapse: collapse;}
+td{border: 1px solid black;}
+.lorem{border: 1.5px black double; padding-bottom: 15px;}
 
 @media (max-width: 991px) {
-    .photo_buvette{width:100%; height: 200px;}
+    .photo_buvette{width:100%; height: 200px; padding-bottom: 15px;}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .photo_buvette{width:100%; height: 320px;}
+    .photo_buvette{width:100%; height: 320px; padding-bottom: 15px;}
 }
 
 @media screen and (min-width: 1200px) {
-    .photo_buvette{width:100%; height: 350px;}
+    .photo_buvette{width:100%; height: 350px; padding-bottom: 15px;}
 }
 
 .plan {
