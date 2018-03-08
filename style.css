@@ -35,10 +35,10 @@ td{border: 1px solid black;}
 .maps {
   margin-top: 2em;
 }
-.maps iframe {
+ .interactive_map {
   max-width: 100%;
 }
-.maps img {
+.festival_map {
   max-width: 100%;
 }
 .vert {
@@ -258,13 +258,6 @@ h1#timeline{
 	margin-right: 12%;
 	margin-left: 12%;
 }
-
-body { padding-top: 70px; }
-
-.test{
-	position: relative;
-}
-
-.test2{
-	position: absolute;
+.byebyedeer {
+  max-width: 100%;
 }
