@@ -1,9 +1,20 @@
-.plan {
-  margin-bottom: 2vh;
+
+/* Début partie Xavier */
+.ticket_pict img {
+  max-width: 100%;
 }
 .captions {
-  padding-left: 0px;
-  margin-left: 0px;
+  padding-left: 1em;
+  margin-top: 2em;
+}
+.maps {
+  margin-top: 2em;
+}
+.maps iframe {
+  max-width: 100%;
+}
+.maps img {
+  max-width: 100%;
 }
 .vert {
   background-color: lawngreen;
@@ -14,3 +25,5 @@
 .blue {
   background-color: turquoise;
 }
+
+/* Fin partie Xavier*/
