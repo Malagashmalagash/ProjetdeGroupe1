@@ -10,10 +10,10 @@
 .maps {
   margin-top: 2em;
 }
-.maps iframe {
+ .interactive_map {
   max-width: 100%;
 }
-.maps img {
+.festival_map {
   max-width: 100%;
 }
 .vert {
@@ -25,5 +25,7 @@
 .blue {
   background-color: turquoise;
 }
-
+.byebyedeer {
+  max-width: 100%;
+}
 /* Fin partie Xavier*/
