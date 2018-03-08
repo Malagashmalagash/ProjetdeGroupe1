@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* section biovette */
 .photo_buvette{width:100%; height: 350px;}
 .photos_bouffe{display: flex; flex-direction: column; width: 25%;}
@@ -16,7 +15,6 @@ h2{text-align: center;}
 @media screen and (min-width: 1200px) {
     .photo_buvette{width:100%; height: 350px;}
 }
-=======
 
 .plan {
   margin-bottom: 2vh;
@@ -235,4 +233,3 @@ h1#timeline{
 
 }
 /*timeline*/
->>>>>>> 8eba3218a3d0e9859229908ca56bdbf5216808a5
