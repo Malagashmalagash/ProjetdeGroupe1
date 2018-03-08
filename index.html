@@ -7,7 +7,10 @@
     <!-- BOOTSTRAP installation -->
     <!-- Latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
     <link rel="stylesheet" href="style.css">
 	<title>WildFestoche</title>
 </head>
@@ -16,7 +19,7 @@
 <header>
 <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid test">
-            <div class="test2"><img class="img-responsive" src="images/laugauNav.jpg"></div>
+            <div class="hidden-xs test2"><img class="img-responsive" src="images/laugauNav.jpg"></div>
             <div class="row text-center">
                 <div class="col-xs-12">
                 <p>Wild Festival</p>
@@ -54,12 +57,14 @@
     </nav>
 </header>
 
-<section class="artiste">
+<div class="section">
+<section class="artiste slide">
 	<div class="container-fluid">
+        <div><img class="img-responsive" src="images/lapin.jpg"></div>
      <div class="container">
 
         
-    <div class="panel panel-default">
+    <div class="panel panel-default slide">
         <div class="panel-heading">
             <h3 class="panel-title text-left">Artistes à l'honneur cette année</h3>
         </div>
@@ -71,7 +76,7 @@
                <figure class="thumbnail text-center">
                 <img src="images/laugau.jpg" alt="gnuman" class="responsive img-circle">
                 <figcaption class="caption">
-                    <h3>Monsieur banane</h3>
+                    <h3>Monsieur patate</h3>
                     <p class="TNcenter">Jongle comme un mongolo avec des perceuses branchées sur 220V ! Il est stupide, mais on aimerai secretement qu'il se blesse méchament !</p>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalart1"><span
                             aria-hidden="true"></span> En savoir plus
@@ -447,7 +452,17 @@
 <footer>
 	
 </footer>
-
+<!-- Test pour FullPage-->
+<script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+                anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+                menu: '#menu',
+                scrollingSpeed: 1000
+            });
+        });
+    </script>
 
 
 <!-- Latest compiled and minified Bootstrap JavaScript + JQuery -->
