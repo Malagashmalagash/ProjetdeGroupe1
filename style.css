@@ -131,6 +131,8 @@ td{border: 1px solid black;}
 body.timeline-body {
   font-family: 'From the Woods';
   color:sienna;
+  font-weight:bold;
+
   margin:0;
   padding:0;
   background: url("images/arbre.jpg") no-repeat center fixed;
@@ -143,7 +145,7 @@ div.timeline-panel{
 }
 
 h1#timeline{
-  font-size:2em;
+  font-size:3em;
   font:bold;
   color:white;
   text-shadow:4px 4px 3px black;
@@ -285,12 +287,15 @@ h1#timeline{
 .timeline-title {
     margin-top: 0;
     color: inherit;
+    font-weight: bold;
+    font-size:2em;
 }
 
 
 .timeline-body > p,
 .timeline-body > ul {
     margin-bottom: 0;
+
 }
 
     .timeline-body > p + p {
