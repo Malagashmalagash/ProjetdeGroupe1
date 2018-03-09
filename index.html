@@ -9,21 +9,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
 	<title>WildFestoche</title>
 </head>
 
 	<!-- Partie clément -->
+
 <header>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid posRelative">
-            <div class="hidden-xs posAbsolue"><img class="img-responsive" src="images/laugauNav.jpg" alt="logo de cerf"></div>
+            <div class="hidden-xs posAbsolue"><img src="images/laugau2.jpg" alt="logo de cerf"></div>
             <div class="row text-center">
                 <div class="col-xs-12">
-                <h3>Wild Festival<h3>
-                <h4>Le premier avril 2018 à Cerf-chevalier, de 9h à 00h00 !</h4>
+                <h1 class="mediatitre">Wild Festival<h1>
+                <h4 class="mediatexte">Le premier avril 2018 à Cerf-chevalier, de 9h à 00h00 !</h4>
                 </div>
             </div>
 
@@ -37,16 +37,15 @@
                     <span class="icon-bar"></span>
                 </button>
                 
-                <p class="hidden-xs navbar-text">Ca va etre WILD !</p>
+                
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-left">
-                    <li><a href="#">Programmation</a></li>    
-                </ul>
+                
 
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Programmation</a></li>
                     <li><a href="#">Artistes</a></li>
                     <li><a href="#">Galerie</a></li>
                     <li><a href="#">Information</a></li>
@@ -59,15 +58,16 @@
 </header>
 
 <body>
-<div class="section paddingsection">
+<div class="section">
 	<div class="container-fluid">
         <div><img class="img-responsive" src="images/lapin.jpg" alt="Lapin d'honneur"></div>
-     <div class="container">
 
-        
-    <div class="panel panel-default slide">
+
+
+    <div class="container">  
+    <div class="panel panel-default slide marginsection">
         <div class="panel-heading">
-            <h3 class="panel-title text-left">Artistes à l'honneur cette année</h3>
+            <h2 class="panel-title text-left">Artistes à l'honneur cette année</h2>
         </div>
             <div class="panel-body">
     
@@ -168,9 +168,8 @@
         </div>
      </div>
 
-    
 
-    <div class="panel panel-default">
+    <div class="panel panel-default mediapetit">
         <div class="panel-heading">
             <h3 class="panel-title text-left">Artistes MOINS à l'honneur cette année, mais bon, on a pas le choix</h3>
         </div>
@@ -470,7 +469,14 @@
 
 
 <!-- Latest compiled and minified Bootstrap JavaScript + JQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="scroll.js"></script>
+
+<script>
+    $(document).ready(function() {
+    $('#fullpage').fullpage();
+});
+</script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>

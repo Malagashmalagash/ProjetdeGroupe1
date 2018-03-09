@@ -12,12 +12,33 @@ body { padding-top: 70px; }
 
 .posAbsolue{
 	position: absolute;
+	margin-top: 35px;
+	margin-left: 25px;
 }
 
 .navbar-default .navbar-nav > li > a{
 	padding-right: 25px;
 }
 
-.paddingsection{
-	padding-top: 20px;
+.tailletitre{
+	font-size : 1em;
+}
+
+.marginsection{
+	margin-top: 100px;
+}
+
+
+@media screen and (max-width: 576px) {
+  .mediatitre {
+	    font-size: 1.5em;
+	    /*display: none;*/
+  }
+  .mediatexte {
+  		font-size: 1em;
+	    /*display: none;*/
+  }
+  .mediapetit{
+  		display: none;
+  }
 }
