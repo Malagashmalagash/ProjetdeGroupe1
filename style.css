@@ -6,7 +6,7 @@
 p{display: flex; flex-direction: column;}
 .certif_bio{text-align: center;}
 .prod_prix{display: flex;}
-
+.taros{width: 100%; text-align: center;}
 td{border: 1px solid black;}
 .lorem{border: 1.5px black double; padding-bottom: 15px;}
 
