@@ -58,7 +58,9 @@ td{border: 1px solid black;}
 
 /*timeline*/
 body.timeline-body {
-  background-image: url("images/arbre.jpg");
+  margin:0;
+  padding:0;
+  background: url("images/arbre.jpg") no-repeat center fixed;
 
 }
 div.timeline-panel{
