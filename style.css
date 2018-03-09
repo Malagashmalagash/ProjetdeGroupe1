@@ -2,10 +2,11 @@
 
 /* section biovette */
 .photo_buvette{width:100%; height: 350px;}
-.table1, .table2, .table3{display: flex;}
+.bouffe1, .bouffe2, .bouffe3{display: flex;}
 p{display: flex; flex-direction: column;}
-h2{text-align: center;}
-table{border-collapse: collapse;}
+.certif_bio{text-align: center;}
+.prod_prix{display: flex;}
+
 td{border: 1px solid black;}
 .lorem{border: 1.5px black double; padding-bottom: 15px;}
 
