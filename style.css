@@ -1,4 +1,5 @@
 
+
 /* section biovette */
 .photo_buvette{width:100%; height: 350px;}
 .table1, .table2, .table3{display: flex;}
@@ -20,21 +21,41 @@ td{border: 1px solid black;}
     .photo_buvette{width:100%; height: 350px; padding-bottom: 15px;}
 }
 
-.plan {
-  margin-bottom: 2vh;
-}
-.captions {
-  padding-left: 0px;
-  margin-left: 0px;
-}
-.vert {
-  background-color: lawngreen;
-}
-.yellow {
-  background-color: yellow;
-}
-.blue {
-  background-color: turquoise;}
+
+
+  /* Début partie Xavier */
+  
+  .ticket_pict img {
+    max-width: 100%;
+  }
+  .captions {
+    padding-left: 1em;
+    margin-top: 2em;
+  }
+  .maps {
+    margin-top: 2em;
+  }
+   .interactive_map {
+    max-width: 100%;
+  }
+  .festival_map {
+    max-width: 100%;
+  }
+  .vert {
+    background-color: lawngreen;
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  .blue {
+    background-color: turquoise;
+  }
+  .byebyedeer {
+    max-width: 100%;
+  }
+  /* Fin partie Xavier*/
+
+
 /*timeline*/
 body.timeline-body {
   background-image: url("images/arbre.jpg");
@@ -243,14 +264,3 @@ h1#timeline{
 	margin-right: 12%;
 	margin-left: 12%;
 }
-
-body { padding-top: 70px; }
-
-.test{
-	position: relative;
-}
-
-.test2{
-	position: absolute;
-}
-
