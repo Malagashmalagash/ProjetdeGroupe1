@@ -212,6 +212,7 @@ h1#timeline{
     color: inherit;
 }
 
+
 .timeline-body > p,
 .timeline-body > ul {
     margin-bottom: 0;
@@ -263,4 +264,40 @@ h1#timeline{
 	text-align: justify;
 	margin-right: 12%;
 	margin-left: 12%;
+
+.posRelative{
+	position: relative;
+}
+
+.posAbsolue{
+	position: absolute;
+	margin-top: 35px;
+	margin-left: 25px;
+}
+
+.navbar-default .navbar-nav > li > a{
+	padding-right: 25px;
+}
+
+.tailletitre{
+	font-size : 1em;
+}
+
+.marginsection{
+	margin-top: 100px;
+}
+
+
+@media screen and (max-width: 576px) {
+  .mediatitre {
+	    font-size: 1.5em;
+	    /*display: none;*/
+  }
+  .mediatexte {
+  		font-size: 1em;
+	    /*display: none;*/
+  }
+  .mediapetit{
+  		display: none;
+  }
 }
