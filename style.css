@@ -24,7 +24,7 @@ src:url("polices/fromTheWoods.otf");
 	text-align: justify;
 	margin-right: 12%;
 	margin-left: 12%;
-<<<<<<< HEAD
+
 }
 
 .posRelative{
@@ -129,6 +129,8 @@ td{border: 1px solid black;}
 
 /*timeline*/
 body.timeline-body {
+  font-family: 'From the Woods';
+  color:sienna;
   margin:0;
   padding:0;
   background: url("images/arbre.jpg") no-repeat center fixed;
