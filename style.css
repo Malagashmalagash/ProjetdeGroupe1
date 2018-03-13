@@ -56,6 +56,39 @@ td{border: 1px solid black;}
 
 
 /*timeline*/
+.timeline-legend.star, .timeline-legend.music, .timeline-legend.film{
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1em;
+  text-align: center;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.legend-icon{
+  font-size:1.5em;
+  font:bold;
+  color:white;
+  text-shadow:4px 4px 3px black;
+  color: white;
+}
+
+.timeline-legend.star{
+  background-color:#ED4C67;
+}
+
+.timeline-legend.music{
+  background-color: #7d5fff;
+}
+
+.timeline-legend.film{
+  background-color: #33d9b2;
+}
+
 body.timeline-body {
   font-family:'From the Woods';
   margin:0;
@@ -83,29 +116,29 @@ h1#timeline{
     position: relative;
 }
 
-    .timeline:before {
-        top: 0;
-        bottom: 0;
-        position: absolute;
-        content: " ";
-        width: 3px;
-        background-color: #eeeeee;
-        left: 50%;
-        margin-left: -1.5px;
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #eeeeee;
+    left: 50%;
+    margin-left: -1.5px;
+}
+
+.timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+    content: " ";
+    display: table;
     }
 
-    .timeline > li {
-        margin-bottom: 20px;
-        position: relative;
-    }
-
-        .timeline > li:before,
-        .timeline > li:after {
-            content: " ";
-            display: table;
-        }
-
-        .timeline > li:after {
+      .timeline > li:after {
             clear: both;
         }
 
@@ -203,13 +236,6 @@ h1#timeline{
     background-color: #33d9b2 !important;
 }
 
-.timeline-badge.danger {
-    background-color: #d9534f !important;
-}
-
-.timeline-badge.info {
-    background-color: #5bc0de !important;
-}
 
 .timeline-title {
     margin-top: 0;
