@@ -4,7 +4,11 @@
 	margin-left: 12%;
 }
 
-body { padding-top: 70px; }
+.container-fluid{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+body { padding-top: 50px; }
 
 .posRelative{
 	position: relative;
@@ -28,6 +32,16 @@ body { padding-top: 70px; }
 	margin-top: 100px;
 }
 
+.taillemenunavbar{
+	font-size :1.5em;
+}
+
+.maintitle{
+ 	font-family: 'Lobster', cursive;
+ 	font-size: 3em;
+}
+
+
 
 @media screen and (max-width: 576px) {
   .mediatitre {
@@ -41,4 +55,9 @@ body { padding-top: 70px; }
   .mediapetit{
   		display: none;
   }
+  .taillemenunavbar{
+	font-size :1.2em;
+	}
 }
+
+
