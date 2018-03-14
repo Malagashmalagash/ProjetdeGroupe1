@@ -342,7 +342,7 @@ body { padding-top: 50px; }
 
 .maintitle{
  	font-family: 'Lobster', cursive;
- 	font-size: 3em;
+ 	font-size: 4em;
 }
 
 
@@ -365,3 +365,14 @@ body { padding-top: 50px; }
 }
 
 
+/*CCS des calques de la banniere*/
+
+}.name{
+	position: absolute;
+	width: 50%;
+
+	bottom: 40%;
+	left: 25%;
+
+	font-size: 2.5em;
+	color: white;
