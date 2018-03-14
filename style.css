@@ -1,5 +1,10 @@
 
 /* Partie générale body, police, etc */
+h1,h2,h3 {
+  font-family:'Lobster', cursive;
+}
+
+
 body {
   font-family: 'Cabin', sans-serif;
   color: #582E1A;
