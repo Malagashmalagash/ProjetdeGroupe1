@@ -1,4 +1,90 @@
 
+/* Partie générale body, police, etc */
+h1,h2,h3 {
+  font-family:'Lobster', cursive;
+}
+
+
+body {
+  font-family: 'Cabin', sans-serif;
+  color: #582E1A;
+  background-color: #F2F2F2;
+}
+.mainTitle {
+  font-family: 'Lobster', cursive;
+  font-size: 9vh;
+  color: #582E1A;
+  font-weight: bold;
+}
+.dateTitle {
+  font-family: 'Lobster', cursive;
+  font-size: 3vh;
+  color: #582E1A;
+}
+.section-header {
+  font-family: 'Lobster', cursive;
+  color: #582E1A;
+}
+
+
+/* Fin partie générale body, police, etc */
+
+/* Partie Clément */
+.wildnavbar {
+  background-color: #F2A516;
+}
+
+
+.TNcenter{
+	text-align: justify;
+	margin-right: 12%;
+	margin-left: 12%;
+}
+
+.posRelative{
+	position: relative;
+}
+
+.posAbsolue{
+	position: absolute;
+	margin-top: 35px;
+	margin-left: 25px;
+}
+
+.navbar-default .navbar-nav > li > a{
+	padding-right: 25px;
+}
+
+.tailletitre{
+	font-size : 1em;
+}
+
+.marginsection{
+	margin-top: 100px;
+}
+
+
+@media screen and (max-width: 576px) {
+  .mediatitre {
+	    font-size: 1.5em;
+	    /*display: none;*/
+  }
+  .mediatexte {
+  		font-size: 1em;
+	    /*display: none;*/
+  }
+  .mediapetit{
+  		display: none;
+  }
+}
+
+
+/* Fin partie Clément */
+
+
+
+/* section infos pratiques*/
+
 
 /* section biovette */
 
@@ -58,6 +144,28 @@
   .byebyedeer {
     max-width: 100%;
   }
+  .join-us {
+    background-color: #04ADBF;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  .volunteers, .mailing {
+    text-align: center;
+  }
+  .wildfooter {
+    background-color: #214035;
+    padding-bottom: 1vh;
+  }
+  .logo img {
+    width: 20px;
+    height: 20px;
+  }
+  .credits {
+    color: white;
+    font-size: 1.5vh;
+    padding-top: 1em;
+  }
+
   /* Fin partie Xavier*/
 
 
@@ -372,5 +480,3 @@ body { padding-top: 50px; }
 	font-size :1.2em;
 	}
 }
-
-
