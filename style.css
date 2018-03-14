@@ -143,18 +143,23 @@ td{border: 1px solid black;}
     padding-top: 0.5em;
     padding-bottom: 0.5em;
   }
+  .volunteers, .mailing {
+    text-align: center;
+  }
   .wildfooter {
     background-color: #214035;
+    padding-bottom: 1vh;
   }
   .logo img {
     width: 20px;
     height: 20px;
   }
   .credits {
-    text-align: center;
     color: white;
     font-size: 1.5vh;
+    padding-top: 1em;
   }
+
   /* Fin partie Xavier*/
 
 
