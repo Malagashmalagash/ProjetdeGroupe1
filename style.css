@@ -1,13 +1,15 @@
 
 
 /* section biovette */
-.photo_buvette{width:70%; height: 350px; margin-left: 15%; margin-right: 15%;}
-.table1, .table2, .table3{display: flex;}
-p{display: flex; flex-direction: column;}
-h2{text-align: center;}
-table{border-collapse: collapse;}
-td{border: 1px solid black;}
+.photo_buvette{width:70%; height: 350px; margin-left: 15%; margin-right: 15%; margin-top: 25px;}
+.bouffe1, .bouffe2, .bouffe3{display: flex;}
+.capt_bouffe{display: flex; flex-direction: column;}
+.certif_bio{text-align: center;}
+.taros{border-collapse: collapse; margin-bottom: 25px;}
+.article_tableau, .prix_tableau{border: 1px solid black; font-size: 1.4em;}
 .lorem{border: 1.5px black double; padding-bottom: 15px;}
+.tab_prix{font-size: 1.8em;}
+/*.presentation_bouffe.taros{display: flex;}*/
 
 @media (max-width: 991px) {
     .photo_buvette{width:70%; height: 200px; padding-bottom: 15px; margin-left: 15%; margin-right: 15%;}
