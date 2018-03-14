@@ -1,26 +1,29 @@
 
 
 /* section biovette */
-.photo_buvette{width:70%; height: 350px; margin-left: 15%; margin-right: 15%; margin-top: 25px;}
+
 .bouffe1, .bouffe2, .bouffe3{display: flex;}
 .capt_bouffe{display: flex; flex-direction: column;}
 .certif_bio{text-align: center;}
-.taros{border-collapse: collapse; margin-bottom: 25px;}
-.article_tableau, .prix_tableau{border: 1px solid black; font-size: 1.4em;}
+
+.photo_bio1 .photo_bio2 .photo_bio3{width:70%; height: 35px;}
+
 .lorem{border: 1.5px black double; padding-bottom: 15px;}
-.tab_prix{font-size: 1.8em;}
-/*.presentation_bouffe.taros{display: flex;}*/
+.carousel-inner > .item > img{width: 100%; height: 750px;}
 
 @media (max-width: 991px) {
     .photo_buvette{width:70%; height: 200px; padding-bottom: 15px; margin-left: 15%; margin-right: 15%;}
+    .photo_bio1, .photo_bio2, .photo_bio3{width:70%; height: 35px;}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .photo_buvette{width:70%; height: 320px; padding-bottom: 15px; margin-left: 15%; margin-right: 15%;}
+    .photo_bio1, .photo_bio2, .photo_bio3{width:70%; height: 35px;}
 }
 
 @media screen and (min-width: 1200px) {
     .photo_buvette{width:70%; height: 350px; padding-bottom: 15px; margin-left: 15%; margin-right: 15%;}
+    .photo_bio1, .photo_bio2, .photo_bio3{width:70%; height: 35px;}
 }
 
 
