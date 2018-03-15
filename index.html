@@ -47,7 +47,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right taillemenunavbar">
-                    <li><a href="#">Programmation</a></li>
+                    <li><a href="wildfestival.html">Programmation</a></li>
                     <li><a href="#artistes">Artistes</a></li>
                     <li><a href="#galerie">Galerie</a></li>
                     <li><a href="#infos">Information</a></li>
@@ -90,7 +90,7 @@
         </div>
 
 
-    <div class="container artistes">                   
+    <div class="container artistes">
         <div class="row">
             <div class="col-sm-6 col-lg-4">
                <figure class="thumbnail text-center">
@@ -194,20 +194,26 @@
         </div>
 </div>
 <!-- Partie Damien -->
-<section id="galerie">
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div class="container">
+    <div class="row">
+        <h2>Edition precedente</h2>
+    </div>
+</div>
+<section>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
         <div class="carousel-inner img-responsive" role="listbox">
 
             <div class="item active">
-                <img class="ed_precedentes" src="images/buiten-westen-amsterdam-2015.jpg" alt="img_carousel1">
+                <img class="ed_precedentes" src="images/buiten-westen-amsterdam-2015.jpg" alt="img_carousel1"/>
             </div>
 
             <div class="item">
-                <img class="ed_precedentes" src="images/festival-2.jpg" alt="img_carousel2">
+                <img class="ed_precedentes" src="images/festival-2.jpg" alt="img_carousel2"/>
             </div>
 
             <div class="item">
-                <img class="ed_precedentes" src="images/petite-histoire-solidays2016.jpg" alt="img_carousel2">
+                <img class="ed_precedentes" src="images/petite-histoire-solidays2016.jpg" alt="img_carousel3"/>
             </div>
 
         </div>
@@ -216,96 +222,83 @@
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
+
         <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
-        </a></div>
+        </a>
 
 
     </div>
+
 </section>
 
-
-        <hr/>
-
 <section id="infos">
+    <div class="container-fluid">
+        <div class="row join-us">
+            <h2 class="text-left h2titre">Informations pratiques</h2>
+        </div>
+    </div>
+    
+    <div class="container">
 
-    <!--<div class="banner">
-        <img class="photo_buvette" src="images/kermit-2806001_1920.jpg" alt="photo_buvette"/>
-    </div>-->
 <div class="container-fluid">
-        <div class="row join-us" id="informations">
+        <div>
             <h2 class="text-left">La Biovette et ses spécialités !</h2>
         </div>
 </div>
     <h2 class="certif_bio">Tous nos produits sont cerf'tifiés 100% Bio</h2>
 
-    <div class="prod_pix container">
+        <h3 class="certif_bio">Tous nos produits sont 100% cerf'tifiés <span class="bio_vert">Bio</span></h3>
 
-        <div class="row">
+        <div>
 
-            <div class="presentation_bouffe">
+            <div class="row">
 
-                <div class="col-xs-8 col-md-4">
-                    <div class="bouffe1 thumbnail">
+                <div class="presentation_bouffe">
 
-                        <img class="photo_bio1" src="images/glass-3209750_640.jpg" alt="photo_bio1"/>
-                        <div class="lorem caption">
-                            <p class="capt_bouffe">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua."</p>
+                    <div class="col-xs-8 col-md-4">
+                        <div class="capt_bouffe thumbnail img-responsive">
+
+                            <img src="images/glass-3209750_640.jpg" alt="photo_bio1"/>
+                            <div class="lorem caption">
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua."<br/>
+                                    <span class="prix">Sangria 4.5€</span></p>
+                            </div>
+
                         </div>
                     </div>
-                </div>
 
-                <div class="col-xs-8 col-md-4">
-                    <div class="bouffe2 thumbnail">
+                    <div class="col-xs-8 col-md-4">
+                        <div class="capt_bouffe thumbnail img-responsive">
 
-                        <img class="photo_bio2" src="images/pancake-2303583_640.jpg" alt="photo_bio2"/>
-                        <div class="lorem caption">
-                            <p class="capt_bouffe">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua."</p>
+                            <img src="images/pancake-2303583_640.jpg" alt="photo_bio2"/>
+                            <div class="lorem caption">
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua."<br/>
+                                    <span class="prix">Encas 7.5€</span></p>
+                            </div>
+
                         </div>
                     </div>
-                </div>
 
-                <div class="col-xs-8 col-md-4">
-                    <div class="bouffe3 thumbnail">
+                    <div class="col-xs-8 col-md-4">
+                        <div class="capt_bouffe thumbnail img-responsive">
 
-                        <img class="photo_bio3" src="images/orange-1173991_640.jpg" alt="photo_bio3"/>
-                        <div class="lorem caption">
-                            <p class="capt_bouffe">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua."</p>
+                            <img src="images/orange-1173991_640.jpg" alt="photo_bio3"/>
+                            <div class="lorem caption">
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua."<br/>
+                                    <span class="prix">Binouze Orangée 3.5€</span></p>
+                            </div>
+
                         </div>
                     </div>
+
                 </div>
 
             </div>
-
-
-
-            <!--<table class="taros table-striped table-bordered">
-                <caption class="tab_prix">Tarifs</caption>
-                <thead>
-                    <tr class="range_tableau">
-                        <th class="titre_tableau">Produits</th>
-                        <th class="titre_tableau">Prix</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="range_tableau">
-                        <td class="article_tableau">Binouze Orangée</td>
-                        <td class="prix_tableau">3.5€</td>
-                    </tr>
-                    <tr class="range_tableau">
-                        <td class="article_tableau">Pif (mais du bon..)</td>
-                        <td class="prix_tableau">4.5€</td>
-                    </tr>
-                    <tr class="range_tableau">
-                        <td class="article_tableau">Assortiment d'encas</td>
-                        <td class="prix_tableau">7.5€</td>
-                    </tr>
-                </tbody>
-            </table>-->
 
         </div>
 
@@ -328,20 +321,16 @@
 	<!-- Partie Xavier -->
 	<!-- Le descriptif de ce qu'offre le ticket d'accès au festival -->
 
-<div class="container-fluid">
-        <div class="row join-us">
-            <h2 class="text-left h2titre">Informations pratiques</h2>
-        </div>
-</div>
+
 
 		<h3 class="subsection">Un festival qui vous offre tout ça pour seulement 20€ !</h3>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6 col-md-4 ticket_pict">
+				<div class="col-sm-6 col-md-4 col-md-offset-2 ticket_pict">
 					<img src="images/ticket.png" alt="Ticket to the Wild Festival" />
 				</div>
 				<div class="col-sm-6 col-md-4 captions">
-					<p>Le ticket d'accès au Wild festival vous donne accès à toutes les représentations/animations: concerts, projections des films sélectionnés, performances d'artistes originaux. </p>
+					<p>Le ticket d'accès au Wild festival vous donne accès à toutes les représentations/animations: concerts, projections des films sélectionnés, performances d'artistes originaux. Profitez également des hamacs installés dans la forêt pour prolonger l'expérience WildFest jusqu'au petit matin.</p>
 				</div>
 			</div>
 		</div>
@@ -355,14 +344,15 @@
 </div>
 
 					<h3 class="subsection">Pour nous rejoindre suivez le guide !</h3>
-					<div class="container">
-						<div class="row">
+
+					<div class="container-fluid">
+						<div class="row display-flex">
 							<div class="col-sm-6 col-md-4 col-md-offset-2">
 								<div class="thumbnail">
 									<iframe class="interactive_map" width="600" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?key= AIzaSyBIJWRCBxirUfPZYbg4Scb3vCI7nLFVkXY&center=48.054108,2.167538&zoom=13&maptype=satellite" allowfullscreen></iframe>
 									<div class="caption">
 										<h4>Plan d'accès à la forêt de Cerf-Chevalier</h4>
-										<p><em>Cerf-Chevalier est un petit village situé aux confins de la légendaire forêt des Carnutes à 40 minutes au Nord-Est d'Orléans.</em><br /><br />Le <b>parking</b> du festival est situé dans un <span class="vert">grand champs</span> (en vert clair au centre de la carte) en bordure de la <span class="yellow">D109</span> entre le <span class="blue">château de Chamerolles</span> et l'entrée du village de Cerf-Chevalier.<br /><br />Depuis le parking suivez les flèches pour rejoindre le coeur de la forêt où a lieu le festival !.</p>
+										<p><em>Cerf-Chevalier est un petit village situé aux confins de la légendaire forêt des Carnutes à 40 minutes au Nord-Est d'Orléans.</em><br /><br />Le <b>parking</b> du festival est situé dans un grand champs (en vert clair au centre de la carte) en bordure de la D109 entre le château de Chamerolles et l'entrée du village de Cerf-Chevalier.<br /><br />Depuis le parking suivez les flèches pour rejoindre le coeur de la forêt où a lieu le festival !.</p>
 									</div>
 								</div>
 							</div>
@@ -383,27 +373,26 @@
 		<section id="postuler">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-lg-12 join-us">
+						<div class="col-xs-12 join-us">
 							<h2 class="section-header">Rejoins gnu !</h2>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-xs-12 volunteers">
-							<p>Nous avons toujours besoins de bénévoles pour faire vivre le festival: amène ta bonne humeur et ton amour de la nature pour faire du festival un événement mémorable !<br/></p>
-						</div>
-					<div class="row">
-						<div class="col-xs-12 mailing">
-							<span class="glyphicon glyphicon-send"></span><a href="mailto.contact@wildfestival.org">  contact@wildfestival.org</a>
-						</div>
-					</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-md-offset-4">
+						<div class="col-md-2 col-md-offset-3">
 							<img src="images/laugau.jpg" alt="Le cerf emblème du Wild Fest" class="responsive img-circle byebyedeer">
+						</div>
+						<div class="col-md-4">
+							<p class="text-center volunteers"><br/><em>Nous avons toujours besoin de bénévoles pour faire vivre le festival : amène ta bonne humeur et ton amour de la nature pour faire du festival un événement mémorable !</em><br /><br /><span class="glyphicon glyphicon-send"></span><a href="mailto.contact@wildfestival.org">   contact@wildfestival.org</a></p>
 						</div>
 					</div>
 				</div>
-
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-12">
+							<img class="moss-banner" src="images/moss-thin.png" alt="Mousse" />
+						</div>
+					</div>
+				</div>
 		</section>
 </div>
 
@@ -413,16 +402,8 @@
 			<div class="col-xs-12">
 				<p class=" text-center credits">Le site du Wild Festival a été réalisé avec amour par Clément, Damien, Julien et Xavier</p>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-1 col-xs-offset-5 logo">
-				<a href="https://twitter.com/?lang=fr"><img src="images/Twitter_Bird.svg" alt="Logo Twitter" /></a>
-			</div>
-			<div class="col-xs-1 logo">
-				<a href="https://fr-fr.facebook.com/"><img src="images/facebook.svg" alt="Logo Twitter" /></a>
-			</div>
-			<div class="col-xs-1 logo">
-				<a href="https://fr-fr.facebook.com/"><img src="images/instagram.svg" alt="Logo Instagram" /></a>
+			<div class="col-xs-12">
+				<p class=" text-center logo"><a href="https://twitter.com/?lang=fr"><img src="images/Twitter_Bird.svg" alt="Logo Twitter" /></a><a href="https://fr-fr.facebook.com/"><img src="images/facebook.svg" alt="Logo Twitter" /></a><a href="https://fr-fr.facebook.com/"><img src="images/instagram.svg" alt="Logo Instagram" /></a></p>
 			</div>
 		</div>
 		<div class="row">
@@ -432,7 +413,6 @@
 		</div>
 	</div>
 </footer>
-
 <!-- Test pour FullPage-->
 <script type="text/javascript">
         $(document).ready(function() {
