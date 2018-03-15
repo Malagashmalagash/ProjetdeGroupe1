@@ -3,17 +3,20 @@
 h1,h3 {
   font-family:'Lobster', cursive;
 }
-h2
+.h2titre
 {
 	font-family:'Lobster', cursive;
 	color: white;
-	margin-left: 7em;
+	display: flex;
+	align-items: center;
+	font-size: 3em;
+	text-shadow: 3px 3px 1px black;
 }
 
 body {
   font-family: 'Cabin', sans-serif;
   color: #582E1A;
-  background-color: #F2F2F2;
+  background-color: #FFFFEC;
 }
 .mainTitle {
   font-family: 'Lobster', cursive;
@@ -35,7 +38,8 @@ h2, h3 {
 }
 
 .wildnavbar {
-  background-color: #DBCEB6;
+  background-color: #FFFFEC;
+  /*background-color: #71BBFF;*/
 }
 
 
@@ -114,14 +118,17 @@ h2, h3 {
     max-width: 100%;
   }
   .join-us {
-
-    background-image: url("images/trunkforest.jpg");
-    padding-bottom: 1em;
-  }
+    background-image: url("images/bande1.jpg");
+    height: 150px;
+    padding-left: 15%;
+    display: flex;
+   
+ }
   .join-us h2 {
     margin-left: 1em;
     margin-bottom: 1em;
     color: white;
+
   }
   .volunteers {
     text-align: center;
@@ -172,6 +179,10 @@ h2, h3 {
 .legend-icon{
   font-family:'Cabin', sans-serif;
   font-size:1em;
+<<<<<<< HEAD
+  font:bold;
+=======
+>>>>>>> df0f49794b6292d2ef00250dfc06c7adfd58c0e2
   text-shadow:4px 4px 3px black;
   color: white;
 
@@ -421,6 +432,7 @@ h1#timeline{
 	padding-right: 0px;
 	padding-left: 0px;
 }
+
 body { padding-top: 50px; }
 
 
@@ -485,6 +497,10 @@ body { padding-top: 50px; }
 	.calque{
 	display: none;
 	}
+
+	.join-us {
+		height: 60px;
+	}
 }
 
 /*CCS des calques de la banniere*/
@@ -500,6 +516,7 @@ body { padding-top: 50px; }
 	color: white;
 	font-size: 5em;
 	font-family:'Lobster', cursive;
+	text-shadow: 3px 3px 1px black;
 }
 
 .calque{
