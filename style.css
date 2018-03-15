@@ -11,6 +11,9 @@ body {
   color: #582E1A;
   font-weight: bold;
 }
+h2, h3 {
+  font-family: 'Lobster', cursive;
+}
 .dateTitle {
   font-family: 'Lobster', cursive;
   font-size: 3vh;
@@ -79,7 +82,16 @@ body {
 
 
 /* section infos pratiques*/
-
+.infos-pratiques {
+  background-image: url("images/canopy200.jpg");
+  padding: 0.5em 1em 0.5em 1em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+.infos-pratiques h2 {
+  color: white;
+  text-shadow: 3px 3px 1px black;
+}
 
 /* section biovette */
 .photo_buvette{width:70%; height: 350px; margin-left: 15%; margin-right: 15%; margin-top: 25px;}
@@ -107,13 +119,24 @@ body {
 
 
   /* Début partie Xavier */
-
+  .subsection {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
   .ticket_pict img {
     max-width: 100%;
   }
   .captions {
-    padding-left: 1em;
-    margin-top: 2em;
+    font-size: 1.2em;
+    text-align: justify;
+  }
+  .row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .thumbnail {
+    height: 100%;
   }
   .maps {
     margin-top: 2em;
@@ -124,25 +147,25 @@ body {
   .festival_map {
     max-width: 100%;
   }
-  .vert {
-    background-color: lawngreen;
-  }
-  .yellow {
-    background-color: yellow;
-  }
-  .blue {
-    background-color: turquoise;
-  }
   .byebyedeer {
     max-width: 100%;
   }
   .join-us {
-    background-color: #04ADBF;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    background-image: url("images/trunkforest.jpg");
+    padding-bottom: 1em;
   }
-  .volunteers, .mailing {
+  .join-us h2 {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    color: white;
+  }
+  .volunteers {
     text-align: center;
+    font-size: 1.4em;
+  }
+  .moss-banner {
+    max-width: 100%;
+    margin-top: 1em;
   }
   .wildfooter {
     background-color: #214035;
@@ -151,11 +174,13 @@ body {
   .logo img {
     width: 20px;
     height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .credits {
     color: white;
-    font-size: 1.5vh;
-    padding-top: 1em;
+    font-size: 1em;
+    padding-top: 0.5em;
   }
 
   /* Fin partie Xavier*/
