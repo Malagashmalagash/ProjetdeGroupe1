@@ -1,9 +1,14 @@
 
 /* Partie générale body, police, etc */
-h1,h2,h3 {
+h1,h3 {
   font-family:'Lobster', cursive;
 }
-
+h2
+{
+	font-family:'Lobster', cursive;
+	color: white;
+	margin-left: 7em;
+}
 
 body {
   font-family: 'Cabin', sans-serif;
@@ -26,60 +31,9 @@ body {
   color: #582E1A;
 }
 
-
-/* Fin partie générale body, police, etc */
-
-/* Partie Clément */
 .wildnavbar {
-  background-color: #F2A516;
+  background-color: #DBCEB6;
 }
-
-
-.TNcenter{
-	text-align: justify;
-	margin-right: 12%;
-	margin-left: 12%;
-}
-
-.posRelative{
-	position: relative;
-}
-
-.posAbsolue{
-	position: absolute;
-	margin-top: 35px;
-	margin-left: 25px;
-}
-
-.navbar-default .navbar-nav > li > a{
-	padding-right: 25px;
-}
-
-.tailletitre{
-	font-size : 1em;
-}
-
-.marginsection{
-	margin-top: 100px;
-}
-
-
-@media screen and (max-width: 576px) {
-  .mediatitre {
-	    font-size: 1.5em;
-	    /*display: none;*/
-  }
-  .mediatexte {
-  		font-size: 1em;
-	    /*display: none;*/
-  }
-  .mediapetit{
-  		display: none;
-  }
-}
-
-
-/* Fin partie Clément */
 
 
 
@@ -146,9 +100,10 @@ body {
     max-width: 100%;
   }
   .join-us {
-    background-color: #04ADBF;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    background-image: url("images/moss.jpg");
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    padding-left: 3%;
   }
   .volunteers, .mailing {
     text-align: center;
@@ -347,7 +302,7 @@ h1#timeline{
                 border-right-width: 14px;
                 left: -14px;
                 right: auto;
-            }
+            } 
 
 .timeline-badge.star {
     background-color: #ED4C67 !important;
@@ -379,6 +334,7 @@ h1#timeline{
     .timeline-body > p + p {
         margin-top: 5px;
     }
+
 
 @media (max-width: 767px) {
     ul.timeline:before {
@@ -422,7 +378,11 @@ h1#timeline{
 	text-align: justify;
 	margin-right: 12%;
 	margin-left: 12%;
+	font-size: 1.2em;
+}
 
+.artistes{
+	margin-top: 25px;
 }
 
 .container-fluid{
@@ -460,9 +420,12 @@ body { padding-top: 50px; }
 
 .maintitle{
  	font-family: 'Lobster', cursive;
- 	font-size: 3em;
+ 	font-size: 4em;
 }
-
+.maintitle2{
+	font-family: 'Lobster', cursive;
+ 	font-size: 4em;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -480,4 +443,43 @@ body { padding-top: 50px; }
   .taillemenunavbar{
 	font-size :1.2em;
 	}
+	.maintitle2{
+		display: none;
+	}
+	..miseEnAvant{
+	font-size: 1em;
+	}
+
+	.calque{
+	display: none;
+	}
+}
+
+/*CCS des calques de la banniere*/
+
+.themeWF{
+	position: relative;
+	display: flex;
+	
+}
+
+.miseEnAvant{
+
+	color: white;
+	font-size: 5em;
+	font-family:'Lobster', cursive;
+}
+
+.calque{
+	position: absolute;
+	left: 25%;
+	bottom: 20%;
+
+}
+
+.calque2{
+	position: absolute;
+	left: 10%;
+	top: 40%;
+
 }
