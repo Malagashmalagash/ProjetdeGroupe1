@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- BOOTSTRAP installation -->
     <!-- Latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
-        <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-        <link rel="stylesheet" href="style.css">
-	<title>WildFestoche</title>
+
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+		<title>WildFestoche</title>
+
+
 </head>
 
 	<!-- Partie clément  -->
@@ -19,18 +23,18 @@
 <header>
 
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid posRelative">    
+    <nav class="wildnavbar navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid posRelative">
+
+
             <div class="hidden-xs posAbsolue"><img src="images/laugau2.jpg" alt="logo de cerf"></div>
             <div class="row text-center">
                 <div class="col-xs-12">
-
-                <h1 class="maintitle">Wild Festival</h1>
+                <h1 class="maintitle2">Wild Festival</h1>
 
                 </div>
             </div>
 
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="maintitle" style = margin-left:20vw;>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                         data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -44,10 +48,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right taillemenunavbar">
                     <li><a href="#">Programmation</a></li>
-                    <li><a href="#">Artistes</a></li>
-                    <li><a href="#">Galerie</a></li>
-                    <li><a href="#">Information</a></li>
-                    <li><a href="#">Postuler</a></li>
+                    <li><a href="#artistes">Artistes</a></li>
+                    <li><a href="#galerie">Galerie</a></li>
+                    <li><a href="#infos">Information</a></li>
+                    <li><a href="#postuler">Postuler</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
             </div><!-- /.navbar-collapse -->
@@ -58,29 +62,43 @@
 
 <body>
 
-
-
+    
 <div class="container-fluid">
 
-    <img class="img-responsive" src="images/theme4.jpg" alt="Lapin d'honneur"> 
+    <div class="themeWF">
+        <img class="img-responsive" src="images/theme1.jpg" alt="Banniere de présentation"> 
+        
+        <div class="calque2">
+            <div class="miseEnAvant">
+                <p>Le 1er avril 2018, dans la commune de Cerf-Chevalier</p>
+                <p>de 9h00 à 00h00 !</p>
+            </div>
+        </div>
 
 
+        <div class="calque">
+            <div class="miseEnAvant">
+                <p>Un festival hallucinant,</p>
+                <p>dans un cadre éblouissant !</p>
+            </div>
+        </div>
+    </div>
 
-    <div class="container marginsection">  
-                     
-        <div class="row">
+<section id="">
+	<div class="container-fluid">
+        <div class="row join-us">
             <h2 class="text-left">Artistes à l'honneur cette année</h2>
-        </div>     
+        </div>
 
+
+    <div class="container artistes">                   
         <div class="row">
-
-
             <div class="col-sm-6 col-lg-4">
                <figure class="thumbnail text-center">
                 <img src="images/Artiste1.jpg" alt="gnuman" class="responsive img-circle">
                 <figcaption class="caption">
-                    <h3>Monsieur patate</h3>
-                    <p class="TNcenter">Jongle comme un mongolo avec des perceuses branchées sur 220V ! Il est stupide, mais on aimerai secretement qu'il se blesse méchament !</p>
+                    <h3>Lady Bois-Bois</h3>
+                    <p class="TNcenter">Aprés plusieurs années de tournées à travers le monde, Lady Bois-bois ( la véritable "son of a Biche" ) nous fait le plaisir de revenir aux sources, nous offrir un spéctable exeptionnel</p>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalart1"><span
                             aria-hidden="true"></span> En savoir plus
                     </button>
@@ -96,7 +114,7 @@
                             <h4 class="modal-title">Plus d'informations</h4>
                         </div>
                         <div class="modal-body">
-                            <p>Du blabla sur l'artiste</p>
+                            <p>Née dans un petit village du Périgor, </p>
                         </div>
                     </div>
                     <div class="modal-footer">
@@ -107,10 +125,10 @@
 
             <div class="col-sm-6 col-lg-4">
                <figure class="thumbnail text-center">
-                <img src="images/laugau.jpg" alt="gnuman" class="responsive img-circle">
+                <img src="images/lezard1.jpg" alt="gnuman" class="responsive img-circle">
                 <figcaption class="caption">
-                    <h3>Monsieur banane</h3>
-                    <p class="TNcenter">Jongle comme un mongolo avec des perceuses branchées sur 220V ! Il est stupide, mais on aimerai secretement qu'il se blesse méchament !</p>
+                    <h3>Michel Cerf'doux</h3>
+                    <p class="TNcenter">Ce grand monsieur de la chanson Francaise est le chanteur avec la plus belle carriére ! Venez vous laisser entrainer par ses mélodies envoutantes et ses brames magestueux !</p>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalart2"><span
                             aria-hidden="true"></span> En savoir plus
                     </button>
@@ -136,10 +154,10 @@
 
             <div class="col-sm-6 col-lg-4">
                 <figure class="thumbnail text-center">
-                <img src="images/laugau.jpg" alt="gnuman" class="responsive img-circle">
+                <img src="images/marm.jpg" alt="gnuman" class="responsive img-circle">
                 <figcaption class="caption">
-                    <h3>Monsieur grosnez</h3>
-                    <p class="TNcenter">Jongle comme un mongolo avec des perceuses branchées sur 220V ! Il est stupide, mais on aimerai secretement qu'il se blesse méchament !</p>
+                    <h3>Ed Cerf'An</h3>
+                    <p class="TNcenter">Ce rongeur malicieux sait jouer de tout les instruments depuis sa plus tendre enfance, et sa voix claire et puissante lui permet de couiner aussi bien que la plus énorme des truie  !</p>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalart3"><span
                             aria-hidden="true"></span> En savoir plus
                     </button>
@@ -170,17 +188,26 @@
 </div>
 </section>
 
+<div class="container-fluid">
+        <div class="row join-us">
+            <h2 class="text-left">Galerie des années précedentes</h2>
+        </div>
+</div>
 <!-- Partie Damien -->
-
+<section id="galerie">
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner img-responsive" role="listbox">
 
             <div class="item active">
-                <img class="ed_precedentes" src="https://www.rockurlife.net/img/uploads/2015/06/YAOF_Design_P2N2015_Banniere_Dim_1000x350.jpg" alt="img_dark_vador">
+                <img class="ed_precedentes" src="images/buiten-westen-amsterdam-2015.jpg" alt="img_carousel1">
             </div>
 
             <div class="item">
-                <img class="ed_precedentes" src="https://www.rockurlife.net/img/uploads/2015/06/YAOF_Design_P2N2015_Banniere_Ven_1000x350.jpg" alt="assasins">
+                <img class="ed_precedentes" src="images/festival-2.jpg" alt="img_carousel2">
+            </div>
+
+            <div class="item">
+                <img class="ed_precedentes" src="images/petite-histoire-solidays2016.jpg" alt="img_carousel2">
             </div>
 
         </div>
@@ -192,89 +219,99 @@
         <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
-        </a>
+        </a></div>
+
+
     </div>
+</section>
 
 
-<section class="galerie">
+        <hr/>
 
-    <div class="banner">
-        <img class="photo_buvette" src="https://images.chamonix.net/images/originals/27174-original/mottets.jpg" alt="photobuvette"/>
-    </div>
+<section id="infos">
 
+    <!--<div class="banner">
+        <img class="photo_buvette" src="images/kermit-2806001_1920.jpg" alt="photo_buvette"/>
+    </div>-->
+<div class="container-fluid">
+        <div class="row join-us">
+            <h2 class="text-left">La Biovette et ses spécialités !</h2>
+        </div>
+</div>
     <h2 class="certif_bio">Tous nos produits sont cerf'tifiés 100% Bio</h2>
 
-    <div class="prod_pix">
+    <div class="prod_pix container">
 
         <div class="row">
 
-            <div>
+            <div class="presentation_bouffe">
 
-            <div class="col-xs-8 col-md-4">
-                <div class="bouffe1">
+                <div class="col-xs-8 col-md-4">
+                    <div class="bouffe1 thumbnail">
 
-                    <img class="photo_bio1" src="http://www.corseparadisbio.fr/userfiles/2172/lonzo-et-coppa.jpg" alt="photo_bio1"/>
-                    <div class="lorem">
-                        <cation>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</caption>
+                        <img class="photo_bio1" src="images/glass-3209750_640.jpg" alt="photo_bio1"/>
+                        <div class="lorem caption">
+                            <p class="capt_bouffe">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua."</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-xs-8 col-md-4">
-                <div class="bouffe2">
+                <div class="col-xs-8 col-md-4">
+                    <div class="bouffe2 thumbnail">
 
-                    <img class="photo_bio2" src="http://www.corseparadisbio.fr/userfiles/2172/panzetta-maschetta.jpg" alt="photo_bio2"/>
-                    <div class="lorem">
-                        <caption>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</caption>
+                        <img class="photo_bio2" src="images/pancake-2303583_640.jpg" alt="photo_bio2"/>
+                        <div class="lorem caption">
+                            <p class="capt_bouffe">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua."</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-xs-8 col-md-4">
-                <div class="bouffe3">
+                <div class="col-xs-8 col-md-4">
+                    <div class="bouffe3 thumbnail">
 
-                    <img class="photo_bio3" src="http://www.corseparadisbio.fr/userfiles/2172/les-saucisses.jpg" alt="photo_bio3"/>
-                    <div class="lorem">
-                        <caption>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</caption>
+                        <img class="photo_bio3" src="images/orange-1173991_640.jpg" alt="photo_bio3"/>
+                        <div class="lorem caption">
+                            <p class="capt_bouffe">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua."</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
             </div>
 
 
 
-
-            <table class="taros table-striped table-bordered">
+            <!--<table class="taros table-striped table-bordered">
                 <caption class="tab_prix">Tarifs</caption>
                 <thead>
-                    <tr>
-                        <th>Produits</th>
-                        <th>Prix</th>
+                    <tr class="range_tableau">
+                        <th class="titre_tableau">Produits</th>
+                        <th class="titre_tableau">Prix</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>binouze</td>
-                        <td>3.5€</td>
+                    <tr class="range_tableau">
+                        <td class="article_tableau">Binouze Orangée</td>
+                        <td class="prix_tableau">3.5€</td>
                     </tr>
-                    <tr>
-                        <td>Jaja (mais du bon..)</td>
-                        <td>4.5€</td>
+                    <tr class="range_tableau">
+                        <td class="article_tableau">Pif (mais du bon..)</td>
+                        <td class="prix_tableau">4.5€</td>
                     </tr>
-                    <tr>
-                        <td>Charcute</td>
-                        <td>7.5€</td>
+                    <tr class="range_tableau">
+                        <td class="article_tableau">Assortiment d'encas</td>
+                        <td class="prix_tableau">7.5€</td>
                     </tr>
                 </tbody>
-            </table>
+            </table>-->
 
         </div>
 
-    <div>
     </div>
-</body>
 
+<!-- Fin Partie Damien -->
 
 
 <!-- Partie Damien -->
@@ -287,34 +324,38 @@
 
 
 
+
 	<!-- Partie Xavier -->
 	<!-- Le descriptif de ce qu'offre le ticket d'accès au festival -->
-			<div class="container">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title text-left">Un festival qui vous offre tout ça pour seulement 20€ !</h3>
-					</div>
-					<div class="panel-body">
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-6 col-md-4 ticket_pict">
-									<img src="images/ticket.png" alt="Ticket to the Wild Festival" />
-								</div>
-								<div class="col-sm-6 col-md-4 captions">
-									<p>Le ticket d'accès au Wild festival vous donne accès à toutes les représentations/animations: concerts, projections des films sélectionnés, performances d'artistes originaux. </p>
-								</div>
-							</div>
-						</div>
-					</div>
+
+<div class="container-fluid">
+        <div class="row join-us">
+            <h2 class="text-left">Informations pratiques, parce qu'on ne sait jamais !</h2>
+        </div>
+</div>
+
+		<h3 class="subsection">Un festival qui vous offre tout ça pour seulement 20€ !</h3>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-4 ticket_pict">
+					<img src="images/ticket.png" alt="Ticket to the Wild Festival" />
 				</div>
+				<div class="col-sm-6 col-md-4 captions">
+					<p>Le ticket d'accès au Wild festival vous donne accès à toutes les représentations/animations: concerts, projections des films sélectionnés, performances d'artistes originaux. </p>
+				</div>
+			</div>
+		</div>
 
 		<!-- Les plans d'accès au festival -->
 
-				<div class="panel panel-default">
-					<div class="panel-heading">
-							<h3 class="panel-title text-left">Pour nous rejoindre suivez le guide !</h3>
-					</div>
-					<div class="panel-body">
+<div class="container-fluid">
+        <div class="row join-us">
+            <h2>Vous êtes perdus ? Ca se passe ici !</h2>
+        </div>
+</div>
+
+					<h3 class="subsection">Pour nous rejoindre suivez le guide !</h3>
+					<div class="container">
 						<div class="row">
 							<div class="col-sm-6 col-md-4 col-md-offset-2">
 								<div class="thumbnail">
@@ -335,36 +376,59 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
+
+
 		</section>
 
-		<section class="postuler">
-			<div class="container">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-							<h3 class="panel-title text-left">Rejoins nous !</h3>
+		<section id="postuler">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12 join-us">
+							<h2 class="section-header">Rejoins gnu !</h2>
+						</div>
 					</div>
-					<div class="panel-body">
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-10 col-lg-offset-1">
-									<p>Nous avons toujours besoins de bénévoles pour faire vivre le festival: amène ta bonne humeur et ton amour de la nature pour faire du festival un événement mémorable !</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-4 col-md-offset-4">
-									<img src="images/laugau.jpg" alt="Le cerf emblème du Wild Fest" class="responsive img-circle byebyedeer">
-								</div>
-							</div>
+					<div class="row">
+						<div class="col-xs-12 volunteers">
+							<p>Nous avons toujours besoins de bénévoles pour faire vivre le festival: amène ta bonne humeur et ton amour de la nature pour faire du festival un événement mémorable !<br/></p>
+						</div>
+					<div class="row">
+						<div class="col-xs-12 mailing">
+							<span class="glyphicon glyphicon-send"></span><a href="mailto.contact@wildfestival.org">  contact@wildfestival.org</a>
+						</div>
+					</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4">
+							<img src="images/laugau.jpg" alt="Le cerf emblème du Wild Fest" class="responsive img-circle byebyedeer">
 						</div>
 					</div>
 				</div>
-			</div>
 
 		</section>
 <footer>
-
+	<div class="container-fluid wildfooter">
+		<div class="row">
+			<div class="col-xs-12">
+				<p class=" text-center credits">Le site du Wild Festival a été réalisé avec amour par Clément, Damien, Julien et Xavier</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-1 col-xs-offset-5 logo">
+				<a href="https://twitter.com/?lang=fr"><img src="images/Twitter_Bird.svg" alt="Logo Twitter" /></a>
+			</div>
+			<div class="col-xs-1 logo">
+				<a href="https://fr-fr.facebook.com/"><img src="images/facebook.svg" alt="Logo Twitter" /></a>
+			</div>
+			<div class="col-xs-1 logo">
+				<a href="https://fr-fr.facebook.com/"><img src="images/instagram.svg" alt="Logo Instagram" /></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="text-center credits">Tous droits réservés - <a href="#">Mentions légales</a> - <a href="#">Crédits photographiques</a></p>
+			</div>
+		</div>
+	</div>
 </footer>
 
 <!-- Test pour FullPage-->
