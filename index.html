@@ -13,15 +13,26 @@
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-	<title>Wild Festival</title>
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/Scrollify/jquery.scrollify.js"></script>
 
 
+    <script>
+        $(function() {
+          $.scrollify({
+            section : ".scrollSection",
+            
+          });
+        });
+      </script>
+
+      <title>Wild Festival</title>
 </head>
 
 	<!-- Partie clément  -->
 
 <header>
-
 
     <nav class="wildnavbar navbar navbar-default navbar-fixed-top">
         <div class="container-fluid posRelative">
@@ -43,7 +54,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand pull-left onmevoitpas" href="#"> Wild Festival</a>  
+                <a class="navbar-brand onmevoitpas" href="#"> Wild Festival</a>  
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -65,8 +76,8 @@
 
 <body>
 
-	<div class="container-fluid">
-		<div class="themeWF">
+<div class="container-fluid scrollSection">
+	<div class="themeWF">
         <img class="img-responsive" src="images/theme1.jpg" alt="Banniere de présentation">
 
         <div class="calque2">
@@ -84,11 +95,12 @@
         </div>
 
     </div>
-	</div>
+</div>
 
 
-<section class="container-fluid ArtistePage">
-
+<section class="container-fluid ArtistePage scrollSection">
+        <div></div>
+        <div class="pouet"></div>
         <div class="row join-us" id="artistes">
             <h2 class="text-left h2titre">Artistes à l'honneur cette année</h2>
         </div>
@@ -221,7 +233,7 @@ Après des débuts difficiles chez Barclay Records, Sardou connaît un début de
             <h2 class="text-left h2titre">Galerie des années précedentes</h2>
         </div>
 </div>
-*
+
 
 <!-- Partie Damien -->
 <div class="container">
@@ -404,7 +416,7 @@ Après des débuts difficiles chez Barclay Records, Sardou connaît un début de
 
 
 	<!-- Latest compiled and minified Bootstrap JavaScript + JQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
 	<script src="scroll.js"></script>
 
 	<script>
