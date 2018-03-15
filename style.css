@@ -1,6 +1,6 @@
 
 /* Partie générale body, police, etc */
-h1,h3 {
+h1,h2,h3 {
   font-family:'Lobster', cursive;
 }
 .h2titre
@@ -478,31 +478,46 @@ body { padding-top: 50px; }
   .mediatitre {
 	    font-size: 1.3em;
 	    /*display: none;*/
-  }
+  	}
   .mediatexte {
   		font-size: 1em;
 	    /*display: none;*/
-  }
+  	}
   .mediapetit{
   		display: none;
-  }
+  	}
   .taillemenunavbar{
 	font-size :1.2em;
 	}
 	.maintitle2{
 		display: none;
 	}
-	..miseEnAvant{
-	font-size: 1em;
+	.miseEnAvant{
+	font-size: 2em;
 	}
 
+	.join-us {
+		padding-left: 5%;
+	}
+	.h2titre{
+		font-size: 1.5em;
+	}
 	.calque{
 	display: none;
+	}
+
+	.calque2{
+		display: none;
 	}
 
 	.join-us {
 		height: 60px;
 	}
+	
+	.onmevoitpas{
+		color: black;
+	}
+
 }
 
 /*CCS des calques de la banniere*/
@@ -533,4 +548,8 @@ body { padding-top: 50px; }
 	left: 10%;
 	top: 40%;
 
+}
+
+.onmevoitpas{
+	color : #FFFFEC;
 }
