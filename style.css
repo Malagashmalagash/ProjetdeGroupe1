@@ -122,7 +122,7 @@ h2, h3 {
     height: 150px;
     padding-left: 15%;
     display: flex;
-   
+
  }
   .join-us h2 {
     margin-left: 1em;
@@ -174,15 +174,12 @@ h2, h3 {
 .legend{
   margin-bottom:1%;
   margin-left:9%;
-  
+
 }
 .legend-icon{
   font-family:'Cabin', sans-serif;
   font-size:1em;
-<<<<<<< HEAD
   font:bold;
-=======
->>>>>>> df0f49794b6292d2ef00250dfc06c7adfd58c0e2
   text-shadow:4px 4px 3px black;
   color: white;
 
@@ -202,7 +199,7 @@ h2, h3 {
 
 body.timeline-body {
   padding-top:150px;
-  background: url("images/arbre.jpg") no-repeat center fixed;
+  background: url("images/pattern-3119825_1920.jpg") no-repeat center fixed;
   font-family: 'Cabin', sans-serif;
   color: #582E1A;
 }
