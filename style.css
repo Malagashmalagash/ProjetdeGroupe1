@@ -57,14 +57,13 @@ h2, h3 {
 
 .capt_bouffe{display: flex; flex-direction: column; justify-content: space-around; }
 .certif_bio{text-align: center;}
-.prix{font-weight: bold;}
-.lorem{border: 1.5px transparent double; padding-bottom: 15px;}
+.prix{font-weight: bold; text-align: center;}
 .carousel-inner > .item > img{width: 100%; height: auto;}
 .bio_vert{color: darkgreen}
 
 @media (max-width: 991px) {
 
-    .capt_bouffe{width: 100%;}
+    .capt_bouffe{text-align:center;display: inline-block;float: none;float: none !important;}
 
 }
 
