@@ -205,7 +205,7 @@ h2, h3 {
 body.timeline-body {
   padding-top:150px;
   background: url("images/pattern-3119825_1920.jpg") no-repeat center fixed;
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Cabin', sans-serif ! important;
   color: #582E1A;
 }
 
