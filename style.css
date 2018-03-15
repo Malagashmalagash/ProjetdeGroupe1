@@ -186,15 +186,15 @@ h2, h3 {
 }
 
 .timeline-legend.star{
-  background-color:#ED4C67;
+  background-color:#2a7ca8;
 }
 
 .timeline-legend.music{
-  background-color: #7d5fff;
+  background-color: #38a164;
 }
 
 .timeline-legend.film{
-  background-color: #33d9b2;
+  background-color: #ffbe00;
 }
 
 body.timeline-body {
@@ -343,22 +343,22 @@ h1#timeline{
 }
 
 .timeline-badge.star {
-    background-color: #ED4C67 !important;
+    background-color: #2a7ca8 !important;
 }
 
 .timeline-badge.music {
-    background-color: #7d5fff !important;
+    background-color: #38a164 !important;
 }
 
 .timeline-badge.film {
-    background-color: #33d9b2 !important;
+    background-color: #ffbe00 !important;
 }
 
 
 .timeline-title {
     margin-top: 0;
     color: inherit;
-    font-weight: bold;
+
     font-size:1.5em;
     font-family: 'Lobster', cursive;
     color: #582E1A;
