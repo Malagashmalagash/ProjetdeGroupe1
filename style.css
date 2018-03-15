@@ -114,6 +114,9 @@ h2, h3 {
   .festival_map {
     max-width: 100%;
   }
+  .goingToFestival {
+    margin-bottom: 1em;
+  }
   .byebyedeer {
     max-width: 100%;
   }
@@ -130,6 +133,9 @@ h2, h3 {
     color: white;
 
   }
+  .join-us-blabla {
+    margin-top: 1em;
+  }
   .volunteers {
     text-align: center;
     font-size: 1.4em;
@@ -139,7 +145,7 @@ h2, h3 {
     margin-top: 1em;
   }
   .wildfooter {
-    background-color: #214035;
+    background-color: #DBCEB6;
     padding-bottom: 1vh;
   }
   .logo img {
@@ -149,7 +155,6 @@ h2, h3 {
     margin-right: 5px;
   }
   .credits {
-    color: white;
     font-size: 1em;
     padding-top: 0.5em;
   }
