@@ -13,6 +13,7 @@ h1,h2,h3 {
 }
 
 body {
+  height: 100%;
   font-family: 'Cabin', sans-serif;
   color: #582E1A;
   background-color: #FFFFEC;
@@ -131,7 +132,7 @@ h2, h3 {
     padding-left: 15%;
   }
   .join-us-blabla {
-    margin-top: 1em;
+    margin-top: 5%;
   }
   .volunteers {
     text-align: center;
@@ -139,11 +140,10 @@ h2, h3 {
   }
   .moss-banner {
     max-width: 100%;
-    margin-top: 1em;
+   
   }
   .wildfooter {
     background-color: #DBCEB6;
-    padding-bottom: 1vh;
   }
   .logo img {
     width: 20px;
@@ -424,7 +424,8 @@ h1#timeline{
 }
 
 .artistes{
-	margin-top: 25px;
+	margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 .container-fluid{
@@ -494,10 +495,10 @@ body { padding-top: 50px; }
 	}
 
 	.join-us {
-		padding-left: 5%;
-	}
+    text-align: center;
+  }
 	.h2titre{
-		font-size: 1.5em;
+		font-size: 1.3em;
 	}
 	.calque{
 	display: none;
@@ -515,13 +516,25 @@ body { padding-top: 50px; }
 		color: black;
 	}
 
+  .themeWF{
+    height: 480px;
+  }
+  .pouet{
+    max-height: 50px;
+  }
+  .disparation{
+    display: none;
+  }
+  .imageport{
+    background-image: url(image/imageport.jpg);
+  }
 }
 
 /*CCS des calques de la banniere*/
 
 .themeWF{
-	position: relative;
-	display: flex;
+  position: relative;
+  display: flex;
 
 }
 
@@ -558,4 +571,5 @@ body { padding-top: 50px; }
 
 .pouet{
 	height: 142px;
+  background-image: url("images/bande1.jpg");
 }
