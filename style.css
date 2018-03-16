@@ -85,6 +85,7 @@ h2, h3 {
 
 
 
+<<<<<<< HEAD
 /* Début partie Xavier */
 .subsection {
   text-align: center;
@@ -135,6 +136,79 @@ h2, h3 {
   margin-left: 1em;
   margin-bottom: 1em;
   color: white;
+=======
+  /* Début partie Xavier */
+  .subsection {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .ticket_pict img {
+    max-width: 100%;
+  }
+  .captions {
+    font-size: 1.2em;
+    text-align: justify;
+  }
+  .row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .thumbnail {
+    height: 100%;
+  }
+  .maps {
+    margin-top: 2em;
+  }
+   .interactive_map {
+    max-width: 100%;
+  }
+  .festival_map {
+    max-width: 100%;
+  }
+  .goingToFestival {
+    margin-bottom: 1em;
+  }
+  .byebyedeer {
+    max-width: 100%;
+  }
+  .join-us {
+    background-image: url("images/bande1.jpg");
+    height: 150px;
+    display: flex;
+
+ }
+  .join-us h2 {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    color: white;
+    padding-left: 15%;
+  }
+  .join-us-blabla {
+    margin-top: 5%;
+  }
+  .volunteers {
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .moss-banner {
+    max-width: 100%;
+   
+  }
+  .wildfooter {
+    background-color: #DBCEB6;
+  }
+  .logo img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .credits {
+    font-size: 1em;
+    padding-top: 0.5em;
+  }
+>>>>>>> b521199c1dc63c6a31527e02a38b10ea4e41d1b4
 
 }
 .join-us-blabla {
@@ -548,9 +622,12 @@ body { padding-top: 50px; }
   .imageport{
     background-image: url(image/imageport.jpg);
   }
+<<<<<<< HEAD
   .imabonnetaille{
     object-fit: cover;
   }
+=======
+>>>>>>> b521199c1dc63c6a31527e02a38b10ea4e41d1b4
 }
 
 /*CCS des calques de la banniere*/
@@ -594,6 +671,7 @@ body { padding-top: 50px; }
 
 .pouet{
 	height: 142px;
+<<<<<<< HEAD
   b
 }
 
@@ -601,3 +679,7 @@ body { padding-top: 50px; }
   height: 10vh;
   background-color: #FFFFEC;
 }
+=======
+  background-image: url("images/bande1.jpg");
+}
+>>>>>>> b521199c1dc63c6a31527e02a38b10ea4e41d1b4
