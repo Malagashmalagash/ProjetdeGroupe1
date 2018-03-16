@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- BOOTSTRAP installation -->
-    <!-- Latest compiled and minified Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- BOOTSTRAP installation -->
+  <!-- Latest compiled and minified Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-		<link rel="stylesheet" href="style.css">
-		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-		<title>WildFestoche</title>
+  <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/Scrollify/jquery.scrollify.js"></script>
 
 
+    <script>
+        $(function() {
+          $.scrollify({
+            section : ".scrollSection",
+
+          });
+        });
+      </script>
+
+      <title>Wild Festival</title>
 </head>
 
 	<!-- Partie clément  -->
 
 <header>
-
 
     <nav class="wildnavbar navbar navbar-default navbar-fixed-top">
         <div class="container-fluid posRelative">
@@ -42,20 +53,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-
                 </button>
-                <a class="navbar-brand pull-left onmevoitpas" href="#"> Wild Festival</a>
-
+                <a class="navbar-brand onmevoitpas" href="#"><span class="visible-xs-inline"> Wild Festival </span></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right taillemenunavbar">
-                    <li><a href="wildfestival.html">Programmation</a></li>
-                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="wildfestival.html">Prog</a></li>
+                    <li><a href="#accueil">Accueil</a></li>
                     <li><a href="#artistes">Artistes</a></li>
                     <li><a href="#galerie">Galerie</a></li>
-                    <li><a href="#infos">Information</a></li>
+                    <li><a href="#infos">Infos</a></li>
                     <li><a href="#postuler">Postuler</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -66,15 +75,14 @@
 </header>
 
 <body>
-<div class="container-fluid">
 
-    <div class="themeWF">
-        <img class="img-responsive" src="images/theme1.jpg" alt="Banniere de présentation">
+<div class="container-fluid scrollSection" id="accueil">
+	<div class="themeWF">
+        <img class="img-responsive imabonnetaille" src="images/theme9.jpg" alt="Banniere de présentation" >
 
         <div class="calque2">
             <div class="miseEnAvant">
-                <p>Le 1er avril 2018, dans la commune de Cerf-Chevalier</p>
-                <p>de 9h00 à 00h00 !</p>
+                <p>Le 1er avril 2018 à Cerf-Chevalier, de 9h00 à 00h00 !</p>
             </div>
         </div>
 
@@ -85,12 +93,16 @@
                 <p>dans un cadre éblouissant !</p>
             </div>
         </div>
-    </div>
 
-<section id="">
-	<div class="container-fluid">
-        <div class="row join-us">
-            <h2 class="text-left">Artistes à l'honneur cette année</h2>
+    </div>
+</div>
+
+
+<section class="container-fluid ArtistePage scrollSection" id="artistes">
+        <div></div>
+        <div class="pouet"></div>
+        <div class="row join-us" id="artistes">
+            <h2 class="text-left h2titre">Artistes à l'honneur cette année</h2>
         </div>
 
 
@@ -102,7 +114,7 @@
                 <figcaption class="caption">
                     <h3>Lady Bois-Bois</h3>
                     <p class="TNcenter">Aprés plusieurs années de tournées à travers le monde, Lady Bois-bois ( la véritable "son of a Biche" ) nous fait le plaisir de revenir aux sources, nous offrir un spéctable exeptionnel</p>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalart1"><span
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modalart1"><span
                             aria-hidden="true"></span> En savoir plus
                     </button>
                 </figcaption>
@@ -114,14 +126,23 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h4 class="modal-title">Plus d'informations</h4>
+                            <h4 class="modal-title">Plus d'informations : Lady Bois-Bois</h4>
                         </div>
                         <div class="modal-body">
-                            <p>Née dans un petit village du Périgor, </p>
+                            <p>Stefani Joanne Angelina Germanotta, dite Lady Bois-Bois, est une auteure-compositrice-interprète et actrice américaine, née le 28 mars 1986 dans le quartier de Manhattan à New York, aux États-Unis.
+
+Élevée à New York, elle étudie au couvent du Sacré-Cœur et fréquente brièvement la Tisch School of the Arts de l’université de New York, avant de quitter le milieu scolaire pour se concentrer sur sa carrière musicale. Elle commence alors à se faire un nom sur la scène musicale rock du Lower East Side, et signe ensuite une entente chez Streamline Records fin 2007. Au cours de l’exécution de son contrat en tant qu’auteure-compositrice, ses capacités vocales sont remarquées par l’artiste Akon, qui la signe alors sur son label, Kon Live Distribution.
+
+ </p>
+                        </div>
+                        <div class="modal-body text-center">
+                        <img class="w-50 img-responsive" src="images/Artiste1.jpg" alt="Du bois">
+                        <p class="text-center">Spécialement la pour vous !</p>
+
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                        <button class="btn btn-warning" data-dismiss="modal">Fermer</button>
                     </div>
                 </div>
             </div>
@@ -131,8 +152,8 @@
                 <img src="images/lezard1.jpg" alt="gnuman" class="responsive img-circle">
                 <figcaption class="caption">
                     <h3>Michel Cerf'doux</h3>
-                    <p class="TNcenter">Ce grand monsieur de la chanson Francaise est le chanteur avec la plus belle carriére ! Venez vous laisser entrainer par ses mélodies envoutantes et ses brames magestueux !</p>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalart2"><span
+                    <p class="TNcenter">Ce grand monsieur de la chanson Francaise est le chanteur avec la plus belle carriére ! Venez vous laisser entrainer par ses mélodies envoutantes et ses brames majestueux !</p>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modalart2"><span
                             aria-hidden="true"></span> En savoir plus
                     </button>
                 </figcaption>
@@ -143,14 +164,23 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h4 class="modal-title">Plus d'informations</h4>
+                            <h4 class="modal-title">Plus d'informations sur Michel Cerf-Doux</h4>
                         </div>
                         <div class="modal-body">
-                            <p>Du blabla sur l'artiste</p>
+                            <p>Michel Sardou ([miʃɛl saʁdu] Écouter), né le 26 janvier 1947 à Paris, est un chanteur, parolier, compositeur et comédien français.
+
+Fils des comédiens Fernand Sardou et Jackie Sardou, et petit-fils de Valentin Sardou, Michel Sardou est le descendant d'une tradition familiale dans le monde du spectacle depuis le milieu du XIXe siècle. Auteur de nombreux succès, il compte parmi les chanteurs français les plus populaires.
+
+Après des débuts difficiles chez Barclay Records, Sardou connaît un début de notoriété, en 1967, avec Les Ricains, d'autant que la censure qui frappe la chanson attire l'attention sur lui. Ce n'est cependant qu'au début des années 1970 que sa carrière connaît un véritable second départ.</p>
+                        </div>
+                        <div class="modal-body text-center">
+                        <img class="w-50 img-responsive" src="images/lezard1.jpg" alt="Du bois">
+                        <p class="text-center">Spécialement la pour vous !</p>
+
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                        <button class="btn btn-warning" data-dismiss="modal">Fermer</button>
                     </div>
                 </div>
             </div>
@@ -160,8 +190,8 @@
                 <img src="images/marm.jpg" alt="gnuman" class="responsive img-circle">
                 <figcaption class="caption">
                     <h3>Ed Cerf'An</h3>
-                    <p class="TNcenter">Ce rongeur malicieux sait jouer de tout les instruments depuis sa plus tendre enfance, et sa voix claire et puissante lui permet de couiner aussi bien que la plus énorme des truie  !</p>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalart3"><span
+                    <p class="TNcenter">Ce rongeur malicieux sait jouer de tout les instruments depuis sa plus tendre enfance, et sa voix claire et puissante lui permet de couiner aussi bien que le plus énorme des animaux !</p>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modalart3"><span
                             aria-hidden="true"></span> En savoir plus
                     </button>
                 </figcaption>
@@ -173,38 +203,44 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h4 class="modal-title">Plus d'informations</h4>
+                        <h4 class="modal-title">Plus d'informations sur Ed Cerf'An</h4>
                         </div>
                         <div class="modal-body">
-                            <p>Du blabla sur l'artiste</p>
+                            <p>Ed Sheeran naît le 17 février 1991 et grandit à Halifax, dans le lieu-dit de Maindreville, en Angleterre. Sa famille s'installe ensuite à Framlingham, petite ville du Suffolk3,4. Il est d'origine irlandaise par sa famille paternelle5. Membre d'une chorale durant son enfance, il prend d'abord des cours de violoncelle puis s'initie à la musique populaire grâce à son oncle, qui lui offre une guitare « Little Martin LX1 ». Il prend ensuite des cours pour se perfectionner4.
+
+</p>
+                        </div>
+                        <div class="modal-body text-center">
+                        <img class="w-50 img-responsive" src="images/marm.jpg" alt="Du bois">
+                        <p class="text-center">Spécialement la pour vous !</p>
+
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                        <button class="btn btn-warning" data-dismiss="modal">Fermer</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     </div>
- </div>
-</div>
+
 </section>
 
-<div class="container-fluid">
-        <div class="row join-us">
-            <h2 class="text-left">Galerie des années précedentes</h2>
-        </div>
-</div>
-<!-- Partie Damien -->
-<div class="container">
-    <div class="row">
-        <h2>Edition precedente</h2>
-    </div>
-</div>
-<section>
 
-    <div class="container">
+
+
+<!-- Partie Damien -->
+<section class="container-fluid section scrollSection" id="galerie">
+        <div class="pouet"></div>
+        <div class="row join-us" >
+            <h2 class="text-left h2titre">Galerie des années précedentes</h2>
+        </div>
+
+
+
+
+    <div class="container artistes">
         <div class="row">
             <div class="col-xs-6 col-sm-4 col-md-3">
                 <a href="images/buiten-westen-amsterdam-2015.jpg" class="thumbnail">
@@ -253,33 +289,81 @@
                     <img src="images/lgzhqqwh.jpg" alt="Image 4" />
                 </a>
             </div>
+
+             <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="images/buiten-westen-amsterdam-2015.jpg" class="thumbnail">
+                    <img src="images/11.jpg" alt="Image 1" />
+                </a>
+            </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="images/festival-2.jpg" class="thumbnail">
+                    <img src="images/12.jpg" alt="Image 2" />
+                </a>
+            </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="images/petite-histoire-solidays2016.jpg" class="thumbnail">
+                    <img src="images/13.jpg" alt="Image 3" />
+                </a>
+            </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="images/orig_56464.jpg" class="thumbnail">
+                    <img src="images/14.jpg" alt="Image 4" />
+                </a>
+            </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="images/xyurfc.jpg" class="thumbnail">
+                    <img src="images/15.jpg" alt="Image 1" />
+                </a>
+            </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="images/dkncz_4467.jpg" class="thumbnail">
+                    <img src="images/16.jpg" alt="Image 2" />
+                </a>
+            </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="images/zy6bbqvh.jpg" class="thumbnail">
+                    <img src="images/17.jpg" alt="Image 3" />
+                </a>
+            </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="images/lgzhqqwh.jpg" class="thumbnail">
+                    <img src="images/18.jpg" alt="Image 4" />
+                </a>
+            </div>
         </div>
     </div>
 
 </section>
 
 <section id="infos">
-    <div class="container-fluid">
+    <div class="container-fluid scrollSection">
+        <div></div>
+        <div class="pouet"></div>
         <div class="row join-us">
-            <h2 class="text-left">Informations pratiques, parce qu'on ne sait jamais !</h2>
+            <h2 class="text-left h2titre">Informations pratiques<span class="disparation">, parce qu'on ne sait jamais !</span></h2>
         </div>
-    </div>
 
-    <div class="container">
+        <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-8 col-md-offset-2">
+                                <h3 class="subsection"><span class="glyphicon glyphicon-tree-conifer"></span>  La Biovette </h3>
+                            </div>
+                        </div>
+        </div>
+        <div class="container text-center">
+            <h3 class="certif_bio">Tous nos produits sont 100% cerf'tifiés <span class="bio_vert">Bio</span></h3>
 
-        <h2>Biovette</h2>
-
-        <h3 class="certif_bio">Tous nos produits sont 100% cerf'tifiés <span class="bio_vert">Bio</span></h3>
-
-        <div>
-
-            <div class="row">
-
+            <div class="row ">
                 <div class="presentation_bouffe">
-
-                    <div class="col-xs-8 col-md-4">
+                    <div class="col-xs-12 col-md-4">
                         <div class="capt_bouffe thumbnail img-responsive">
-
                             <img src="images/glass-3209750_640.jpg" alt="photo_bio1"/>
                             <div class="caption">
                                 <h3>Sangria 4.5€</h3>
@@ -288,60 +372,45 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-8 col-md-4">
+                    <div class="col-xs-12 col-md-4">
                         <div class="capt_bouffe thumbnail img-responsive">
-
                             <img src="images/pancake-2303583_640.jpg" alt="photo_bio2"/>
                             <div class="caption">
                                 <h3>Encas 7.5€</h3>
                             </div>
-
                         </div>
                     </div>
 
-                    <div class="col-xs-8 col-md-4">
+                    <div class="col-xs-12 col-md-4">
                         <div class="capt_bouffe thumbnail img-responsive">
-
                             <img src="images/orange-1173991_640.jpg" alt="photo_bio3"/>
                             <div class="caption">
                                 <h3>Binouze Orangée 3.5€</h3>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
 
-    </div>
 
-<!-- Fin Partie Damien -->
-
-
-<!-- Partie Damien -->
-</section>
-<section class="galerie">
-</section>
-
-<section class="infopratique">
-
-
-
-
+	<!-- Fin Partie Damien -->
 
 	<!-- Partie Xavier -->
 	<!-- Le descriptif de ce qu'offre le ticket d'accès au festival -->
 
 
 
-		<h3 class="subsection">Un festival qui vous offre tout ça pour seulement 20€ !</h3>
-		<div class="container">
+
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-sm-6 col-md-4 col-md-offset-2 ticket_pict">
-					<img src="images/ticket.png" alt="Ticket to the Wild Festival" />
+				<div class="col-sm-6 col-md-8 col-md-offset-2">
+					<h3 class="subsection"><span class="glyphicon glyphicon-tree-conifer"></span>  Un festival qui vous offre tout ça pour seulement 20€ !</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-md-4 col-md-offset-2">
+					<img src="images/ticket.png" alt="Ticket to the Wild Festival" class="ticket_pict" />
 				</div>
 				<div class="col-sm-6 col-md-4 captions">
 					<p>Le ticket d'accès au Wild festival vous donne accès à toutes les représentations/animations: concerts, projections des films sélectionnés, performances d'artistes originaux. Profitez également des hamacs installés dans la forêt pour prolonger l'expérience WildFest jusqu'au petit matin.</p>
@@ -351,10 +420,15 @@
 
 		<!-- Les plans d'accès au festival -->
 
-					<h3 class="subsection">Pour nous rejoindre suivez le guide !</h3>
+
 
 					<div class="container-fluid">
-						<div class="row display-flex">
+						<div class="row">
+							<div class="col-sm-6 col-md-8 col-md-offset-2">
+								<h3 class="subsection"><span class="glyphicon glyphicon-tree-conifer"></span>  Pour nous rejoindre suivez le guide !</h3>
+							</div>
+						</div>
+						<div class="row display-flex goingToFestival">
 							<div class="col-sm-6 col-md-4 col-md-offset-2">
 								<div class="thumbnail">
 									<iframe class="interactive_map" width="600" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?key= AIzaSyBIJWRCBxirUfPZYbg4Scb3vCI7nLFVkXY&center=48.054108,2.167538&zoom=13&maptype=satellite" allowfullscreen></iframe>
@@ -382,18 +456,20 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12 join-us">
-							<h2 class="section-header">Rejoins gnu !</h2>
+							<h2 class="section-header h2titre">Rejoins gnu !</h2>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-2 col-md-offset-3">
+                    <div class="hauteur"></div>
+					<div class="row join-us-blabla">
+						<div class="col-xs-8 col-xs-offset-2 col-md-2 col-md-offset-3">
 							<img src="images/laugau.jpg" alt="Le cerf emblème du Wild Fest" class="responsive img-circle byebyedeer">
 						</div>
-						<div class="col-md-4">
+						<div class="col-xs-10 col-xs-offset-1 col-md-4">
 							<p class="text-center volunteers"><br/><em>Nous avons toujours besoin de bénévoles pour faire vivre le festival : amène ta bonne humeur et ton amour de la nature pour faire du festival un événement mémorable !</em><br /><br /><span class="glyphicon glyphicon-send"></span><a href="mailto.contact@wildfestival.org">   contact@wildfestival.org</a></p>
 						</div>
 					</div>
 				</div>
+                <div class="hauteur"></div>
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12">
@@ -402,6 +478,7 @@
 					</div>
 				</div>
 		</section>
+        
 <footer>
 	<div class="container-fluid wildfooter">
 		<div class="row">
@@ -419,30 +496,30 @@
 		</div>
 	</div>
 </footer>
-<!-- Test pour FullPage-->
-<script type="text/javascript">
-        $(document).ready(function() {
-            $('#fullpage').fullpage({
-                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-                anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-                menu: '#menu',
-                scrollingSpeed: 1000
-            });
-        });
-    </script>
+					   	<!-- Test pour FullPage-->
+	<script type="text/javascript">
+	        $(document).ready(function() {
+	            $('#fullpage').fullpage({
+	                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+	                anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+	                menu: '#menu',
+	                scrollingSpeed: 1000
+	            });
+	        });
+	    </script>
 
 
-<!-- Latest compiled and minified Bootstrap JavaScript + JQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="scroll.js"></script>
+	<!-- Latest compiled and minified Bootstrap JavaScript + JQuery -->
 
-<script>
-    $(document).ready(function() {
-    $('#fullpage').fullpage();
-});
-</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+	<script src="scroll.js"></script>
 
+	<script>
+	    $(document).ready(function() {
+	    $('#fullpage').fullpage();
+	});
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+	        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	        crossorigin="anonymous"></script>
+	</body>
 </html>
