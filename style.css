@@ -5,7 +5,6 @@ h1,h2,h3 {
 }
 .h2titre
 {
-	font-family:'Lobster', cursive;
 	color: white;
 	display: flex;
 	align-items: center;
@@ -14,6 +13,7 @@ h1,h2,h3 {
 }
 
 body {
+  height: 100%;
   font-family: 'Cabin', sans-serif;
   color: #582E1A;
   background-color: #FFFFEC;
@@ -61,13 +61,14 @@ h2, h3 {
 
 .capt_bouffe{display: flex; flex-direction: column; justify-content: space-around; }
 .certif_bio{text-align: center;}
-.prix{font-weight: bold; text-align: center;}
+.prix{font-weight: bold;}
+.lorem{border: 1.5px transparent double; padding-bottom: 15px;}
 .carousel-inner > .item > img{width: 100%; height: auto;}
 .bio_vert{color: darkgreen}
 
 @media (max-width: 991px) {
 
-    .capt_bouffe{text-align:center;display: inline-block;float: none;float: none !important;}
+    .capt_bouffe{width: 100%;}
 
 }
 
@@ -84,6 +85,58 @@ h2, h3 {
 
 
 
+<<<<<<< HEAD
+/* Début partie Xavier */
+.subsection {
+  text-align: center;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  margin-top: 2.5em;
+  border: 2px solid #582E1A;
+  border-radius:20px;
+}
+.ticket_pict img {
+  max-width: 100%;
+}
+.captions {
+  font-size: 1.2em;
+  text-align: justify;
+  padding-top: 1em;
+}
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.thumbnail {
+  height: 100%;
+}
+.maps {
+  margin-top: 2em;
+}
+ .interactive_map {
+  max-width: 100%;
+}
+.festival_map {
+  max-width: 100%;
+}
+.goingToFestival {
+  margin-bottom: 1em;
+}
+.byebyedeer {
+  max-width: 100%;
+}
+.join-us {
+  background-image: url("images/bande1.jpg");
+  height: 150px;
+  padding-left: 15%;
+  display: flex;
+
+}
+.join-us h2 {
+  margin-left: 1em;
+  margin-bottom: 1em;
+  color: white;
+=======
   /* Début partie Xavier */
   .subsection {
     text-align: center;
@@ -122,7 +175,6 @@ h2, h3 {
   .join-us {
     background-image: url("images/bande1.jpg");
     height: 150px;
-    padding-left: 15%;
     display: flex;
 
  }
@@ -130,10 +182,10 @@ h2, h3 {
     margin-left: 1em;
     margin-bottom: 1em;
     color: white;
-
+    padding-left: 15%;
   }
   .join-us-blabla {
-    margin-top: 1em;
+    margin-top: 5%;
   }
   .volunteers {
     text-align: center;
@@ -141,11 +193,10 @@ h2, h3 {
   }
   .moss-banner {
     max-width: 100%;
-    margin-top: 1em;
+   
   }
   .wildfooter {
     background-color: #DBCEB6;
-    padding-bottom: 1vh;
   }
   .logo img {
     width: 20px;
@@ -157,8 +208,49 @@ h2, h3 {
     font-size: 1em;
     padding-top: 0.5em;
   }
+>>>>>>> b521199c1dc63c6a31527e02a38b10ea4e41d1b4
 
-  /* Fin partie Xavier*/
+}
+.join-us-blabla {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.volunteers {
+  text-align: center;
+  font-size: 1.4em;
+}
+.moss-banner {
+  max-width: 100%;
+}
+.wildfooter {
+  background-color: #214035;
+  padding-bottom: 1vh;
+}
+.logo img {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.credits {
+  color: #FFFFEC;
+  font-size: 1.2em;
+  padding-top: 0.5em;
+}
+.credits a {
+  color: #FFFFEC;
+}
+
+@media screen and (max-width: 576px){
+
+.credits {
+  font-size: 1em;
+}
+.volunteers {
+  font-size: 1.2em;
+}
+}
+/* Fin partie Xavier*/
 
 
 /*timeline*/
@@ -204,7 +296,7 @@ h2, h3 {
 body.timeline-body {
   padding-top:150px;
   background: url("images/pattern-3119825_1920.jpg") no-repeat center fixed;
-  font-family: 'Cabin', sans-serif ! important;
+  font-family: 'Cabin', sans-serif;
   color: #582E1A;
 }
 
@@ -426,7 +518,8 @@ h1#timeline{
 }
 
 .artistes{
-	margin-top: 25px;
+	margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 .container-fluid{
@@ -496,34 +589,52 @@ body { padding-top: 50px; }
 	}
 
 	.join-us {
-		padding-left: 5%;
-	}
+    text-align: center;
+  }
 	.h2titre{
-		font-size: 1.5em;
+		font-size: 1.3em;
 	}
 	.calque{
 	display: none;
 	}
 
 	.calque2{
-		display: none;
+		font-size: 0.5em;
 	}
 
 	.join-us {
 		height: 60px;
 	}
-	
+
 	.onmevoitpas{
 		color: black;
 	}
 
+  .themeWF{
+    height: 480px;
+  }
+  .pouet{
+    max-height: 50px;
+  }
+  .disparation{
+    display: none;
+  }
+  .imageport{
+    background-image: url(image/imageport.jpg);
+  }
+<<<<<<< HEAD
+  .imabonnetaille{
+    object-fit: cover;
+  }
+=======
+>>>>>>> b521199c1dc63c6a31527e02a38b10ea4e41d1b4
 }
 
 /*CCS des calques de la banniere*/
 
 .themeWF{
-	position: relative;
-	display: flex;
+  position: relative;
+  display: flex;
 
 }
 
@@ -552,3 +663,23 @@ body { padding-top: 50px; }
 .onmevoitpas{
 	color : #FFFFEC;
 }
+
+.ArtistePage{
+	min-height: calc(100vh - 141px);
+
+}
+
+.pouet{
+	height: 142px;
+<<<<<<< HEAD
+  b
+}
+
+.hauteur{
+  height: 10vh;
+  background-color: #FFFFEC;
+}
+=======
+  background-image: url("images/bande1.jpg");
+}
+>>>>>>> b521199c1dc63c6a31527e02a38b10ea4e41d1b4
